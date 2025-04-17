@@ -30,8 +30,9 @@ function populateProjects() {
                 video.src = mediaItem.source;
                 video.poster = mediaItem.poster;
                 video.className = 'project-video';
-                video.muted = true;
+                video.muted = false;
                 video.loop = true;
+                video.volume = 0.1;
                 projectElement.addEventListener('mouseenter', () => video.play());
                 projectElement.addEventListener('mouseleave', () => video.pause());
                 slideElement.appendChild(video);
@@ -164,8 +165,8 @@ function openProjectModal(projectId) {
                 ${project.technologies.map(tech => `<span class="detail-item">${tech}</span>`).join('')}
             </div>
             <div class="project-links">
-                <a href="${project.liveLink}" target="_blank">View Project</a>
-                <a href="${project.codeLink}" target="_blank">View Code</a>
+                ${project.liveLink && project.liveLink !== "#" ? `<a href="${project.liveLink}" target="_blank">View Project</a>` : ""}
+                ${project.codeLink && project.codeLink !== "#" ? `<a href="${project.codeLink}" target="_blank">View Code</a>` : ""}
             </div>
         `;
         
@@ -175,6 +176,8 @@ function openProjectModal(projectId) {
         const activeVideoSlide = modalBody.querySelector('.modal-slide.active video');
         if (activeVideoSlide) {
             activeVideoSlide.play();
+            activeVideoSlide.muted = false;
+            activeVideoSlide.volume = 0.1;
         }
         
         // Disable scrolling on body when modal is open

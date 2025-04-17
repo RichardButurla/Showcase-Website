@@ -11,8 +11,6 @@ const projects = [
         + " include a custom Utility/Behaviour Tree based AI, Inventory system, Turn based mechanics and a variety of actions, items, multiple interconnected systems and a Level Editor with" 
         + " integrated tile slicing and other tile editor features.",
         technologies: ["C++", "SFML"],
-        liveLink: "#",
-        codeLink: "#"
     },
     {
         id: 2,
@@ -25,8 +23,6 @@ const projects = [
         + "We used Software Engineering Agile methods like UML Diagrams, User Stories, CRC cards, etc to plan and design the game, as well as SOLID and Programming/Game Programming patterns to create a maintainable" 
         + " and working project to speed up addition of features.",
         technologies: ["C++", "SFML"],
-        liveLink: "#",
-        codeLink: "#"
     },
     {
         id: 3,
@@ -41,7 +37,6 @@ const projects = [
         + "shifts the challenge to resource management, immersing players in the experience of running a magical bathhouse rather than battling enemies.",
         technologies: ["Godot", "GDScript"],
         liveLink: "https://reachu.itch.io/spirit-bath-house",
-        codeLink: "#"
     },
     {
         id: 4,
@@ -56,8 +51,7 @@ const projects = [
         " I implemented all logic, including player input handling, obstacle spawning, projectile firing, collision, scoring, and display updates, using only Assembly instructions. <br><br>" +
         " This project was an exercise in problem-solving, careful resource management, debugging directly in Assembly, and appreciating the complexities handled by modern game engines and operating systems.",
         technologies: [],
-        liveLink: "#",
-        codeLink: "#"
+        codeLink: "https://github.com/RichardButurla/Assembly-Game"
     },
     {
         id: 5,
@@ -72,8 +66,7 @@ const projects = [
                     "A key focus was creating an adaptive user experience: the game detects the input method, " +
                     "providing standard keyboard controls on desktop and dynamically rendering an on-screen joystick and interaction buttons for touch devices.",
         technologies: [],
-        liveLink: "#",
-        codeLink: "#"
+        codeLink: "https://github.com/RichardButurla/UI-Programming-Project"
     },
     {
         id: 6,
@@ -84,12 +77,12 @@ const projects = [
             { type: "image", source: "assets/photos/BlackJackStats.PNG" }
         ],
         description: "Developed and deployed a dynamic web-based Blackjack game utilizing a full Python stack. <br>The backend is powered by Flask, handling game logic and database interactions," +
-        " while Jinja2 manages server-side templating. <br><br>On the frontend, HTMX provides the smooth, interactive user experience by enabling partial page updates for actions like hitting or standing, " +
+        " while Jinja2 manages server-side templating. <br><br>On the frontend, HTMX provides the interactive user experience by enabling partial page updates for actions like hitting or standing, " +
         "minimizing latency without requiring complex JavaScript frameworks.<br><br> Player game data and outcomes are persistently stored in a MariaDB database," +
         " allowing for subsequent statistical analysis and visualization of game trends. The application is hosted live on PythonAnywhere.",
         technologies: [],
-        liveLink: "#",
-        codeLink: "#"
+        liveLink: "https://c00272345.pythonanywhere.com",
+        codeLink: "https://github.com/RichardButurla/BlackJack-WebGame/tree/main/Final-Version"
     }
 ];
 
