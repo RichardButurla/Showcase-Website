@@ -3,7 +3,7 @@ const projects = [
         id: 1,
         title: "Dungeon RPG (Work in Progress)",
         media: [
-            { type: "video", source: "assets/videos/DungeonTeaser.mp4", poster: "testVid.mp4" },
+            { type: "video", source: "assets/videos/DungeonTeaser.mp4", poster: "assets/photos/RPG_Preview.PNG" },
             { type: "video", source: "assets/videos/DungeonEditorTeaser.mp4" },
         ],
         description: "This is a single-player, turn-based tactical RPG inspired by Baldur’s Gate 3, focusing on strategic combat with simplified mechanics. Players control heroes in a party,"
@@ -16,7 +16,7 @@ const projects = [
         id: 2,
         title: "Endless Zombie Shooter",
         media: [
-            { type: "video", source: "assets/videos/Endless Shooter.mp4" },
+            { type: "video", source: "assets/videos/Endless Shooter.mp4", poster: "assets/photos/Shooter_Preview.PNG" },
         ],
         description: "Within a group with another student, designed an endless shooter style game which showcased enemies who can attack and shoot at the player using different weapons and firing behaviours, "
         + "using a pathfinding algorithm to locate the player and AI attacking + steering behaviours. <br><br>Implemented animations, particle effects and a graphical user interface, effects, heads up display,etc. "
@@ -28,7 +28,7 @@ const projects = [
         id: 3,
         title: "Spirit Bathouse",
         media: [
-            { type: "video", source: "assets/videos/SpiritBathhouse.mp4" },
+            { type: "video", source: "assets/videos/SpiritBathhouse.mp4",  poster: "assets/photos/SpiritBathouse_Preview.PNG" },
             { type: "image", source: "assets/photos/GGJ2025.jpg" },
             { type: "image", source: "assets/photos/GGJ_Award2.jpg" }
         ],
@@ -42,7 +42,7 @@ const projects = [
         id: 4,
         title: "Assembly Game",
         media: [
-            { type: "video", source: "assets/videos/AssemblyGame.mp4" },
+            { type: "video", source: "assets/videos/AssemblyGame.mp4", poster: "assets/photos/AssemblyGame_Preivew.PNG" },
             { type: "image", source: "assets/photos/AssemblerRunTimeSample.PNG" },
             { type: "image", source: "assets/photos/AssemblerSampleCode.PNG" }
         ],
@@ -57,7 +57,7 @@ const projects = [
         id: 5,
         title: "PWA JavaScript Detective Game",
         media: [
-            { type: "video", source: "assets/videos/DetectiveGame1.mp4" },
+            { type: "video", source: "assets/videos/DetectiveGame1.mp4", poster: "assets/photos/DetectiveGame_Preview.PNG" },
             { type: "video", source: "assets/videos/DetectiveGameMobile.mp4" }
         ],
         description: "This project is a browser-based detective game built entirely with vanilla JavaScript. <br>"+ 
@@ -72,7 +72,7 @@ const projects = [
         id: 6,
         title: "Black Jack Web Game",
         media: [
-            { type: "video", source: "assets/videos/BlackJackWebGame.mp4" },
+            { type: "video", source: "assets/videos/BlackJackWebGame.mp4", poster: "assets/photos/BlackjackWeb_Preview.PNG" },
             { type: "image", source: "assets/photos/BlackJackSQL.PNG" },
             { type: "image", source: "assets/photos/BlackJackStats.PNG" }
         ],

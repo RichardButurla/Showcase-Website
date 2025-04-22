@@ -28,7 +28,9 @@ function populateProjects() {
             } else if (mediaItem.type === 'video') {
                 const video = document.createElement('video');
                 video.src = mediaItem.source;
-                video.poster = mediaItem.poster;
+                if (mediaItem.poster) {
+                    video.poster = mediaItem.poster;
+                }
                 video.className = 'project-video';
                 video.muted = false;
                 video.loop = true;
@@ -131,7 +133,7 @@ function openProjectModal(projectId) {
                 `;
             } else if (mediaItem.type === 'video') {
                 modalContent += `
-                    <video src="${mediaItem.source}" poster="${mediaItem.poster}" class="modal-video" controls></video>
+                    <video src="${mediaItem.source}" ${mediaItem.poster ? `poster="${mediaItem.poster}"` : ""} class="modal-video" controls></video>
                 `;
             }
             
